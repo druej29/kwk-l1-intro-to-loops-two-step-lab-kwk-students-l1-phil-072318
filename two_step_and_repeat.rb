@@ -50,16 +50,16 @@ end
 
 def break_dance
   steps = 3
-  loop do
-   steps += 1
+
     until steps == 6
       if steps % 2 == 0
         puts "Left"
       else
         puts "Right"
       end
-    sleep(1)
-  end
+      sleep(1)
+     steps += 1
+
   end
 end
 
