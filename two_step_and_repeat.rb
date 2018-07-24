@@ -31,12 +31,17 @@ def a_few_more_steps
 end 
 a_few_more_steps
 
-steps = 0
+
 def how_many_steps?
   # Write a loop that fulfills all criteria from Part 3 of the README.md
-end
+  steps = 0
+  steps += 1
+  
+  sleep(1)
+  end
 
 def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
+  
 end
