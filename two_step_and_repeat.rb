@@ -61,5 +61,6 @@ def break_dance
   end
   sleep(1)
   until == 6
+  break
 end
 end
