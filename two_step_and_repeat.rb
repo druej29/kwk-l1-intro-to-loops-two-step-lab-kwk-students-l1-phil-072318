@@ -49,8 +49,8 @@ end
   #how_many_steps
 
 def break_dance
+  steps = 3
   loop do
-    steps = 3
    steps += 1
     until steps == 6
       if steps % 2 == 0
