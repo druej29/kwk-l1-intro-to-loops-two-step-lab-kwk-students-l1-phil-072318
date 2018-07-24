@@ -13,7 +13,7 @@ def first_steps
     break
 end
 end
-first_steps
+#first_steps
 
 def a_few_more_steps
   # Write a loop that outputs the first two sets of steps in the Two-Step
@@ -29,18 +29,22 @@ def a_few_more_steps
     break
   end 
 end 
-a_few_more_steps
+#a_few_more_steps
 
 
-def how_many_steps?
+def how_many_steps
   # Write a loop that fulfills all criteria from Part 3 of the README.md
   steps = 0
   steps += 1
   if steps % 2 == 0
-    
+    puts "Left"
+  else
+    puts "Right"
   end
   sleep(1)
   end
+  
+  how_many_steps
 
 def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
