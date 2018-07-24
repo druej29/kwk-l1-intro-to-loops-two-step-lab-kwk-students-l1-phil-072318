@@ -53,7 +53,6 @@ def break_dance
   # loop if steps is equal to 6
   steps = 0
   until == 6
-  while steps < 10
   steps += 1
   if steps % 2 == 0
     puts "Left"
