@@ -59,7 +59,7 @@ loop do
         puts "Left"
     else
         puts "Right"
-    end 
+     
       sleep(1)
       if steps == 6
     break
