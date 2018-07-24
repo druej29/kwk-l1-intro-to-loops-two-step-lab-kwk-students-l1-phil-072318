@@ -59,9 +59,8 @@ loop do
         puts "Left"
     else
         puts "Right"
-     end
-      sleep(1)
-    break
+    end
+    sleep(1)
   end
 end
 
