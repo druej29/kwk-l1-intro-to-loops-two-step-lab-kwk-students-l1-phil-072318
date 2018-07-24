@@ -9,6 +9,7 @@ def first_steps
     puts "Right foot back"
     sleep(1)
     puts "stop"
+    sleep(1)
     break
 end
 end
